@@ -7,7 +7,7 @@ function App() {
 
     <div className="App">
        
-       <CenteredCard children="Moisés" />
+       <CenteredCard>Moisés</CenteredCard>
 
     </div>
   );
