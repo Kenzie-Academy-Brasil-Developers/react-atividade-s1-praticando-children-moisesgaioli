@@ -1,11 +1,13 @@
 import "./styles.css";
 
-function CenteredCard () {
+function CenteredCard ({ children }) {
 
     return (
 
         <div className="card">
-            <span></span>
+            <span>
+                {children}
+            </span>
         </div>
     )
 }
